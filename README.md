@@ -157,3 +157,6 @@ void RelocateInstructions(QWORD target, LPVOID trampoline, SIZE_T prologueLength
 ```
 
 #### 4. Happy end
+
+## Credits
+[MinHook](https://github.com/TsudaKageyu/minhook) For safe memory allocation

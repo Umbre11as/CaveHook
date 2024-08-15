@@ -147,7 +147,7 @@ bool CaveHookEx(QWORD target, LPVOID detour, LPVOID* original, HOOK_DATA* hookDa
 	hookData->Trampoline = trampoline;
 	hookData->Prologue = prologue;
 
-	return false;
+	return true;
 }
 
 bool CaveHook(QWORD target, LPVOID detour, LPVOID* original) {
